@@ -4,13 +4,6 @@
 #include <ctime>
 
 
-template <typename T>
-void show_arr(T arr[], const int length) {
-	std::cout << "[";
-	for (int i = 0; i < length; i++)
-		std::cout << arr[i] << ", ";
-	std::cout << "\b\b]\n";
-}
 
 
 int uniq(int arr1[], const int length1,int arr2[], const int length2) {
